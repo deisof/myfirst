@@ -1,0 +1,358 @@
+.menu {
+    background: #87CEEB;
+    height: 120px;
+}
+.home {
+    position: absolute;
+    left: 20px;
+    margin-top: 60px;
+    color: #242225;
+}
+.exit {
+    position: absolute;
+    left: 80px;
+    margin-top: 60px;
+    color: #242225;
+}
+.my_orders a {
+    position: absolute;
+    right: 10px;
+    margin-top: 35px;
+    background-color: #1E90FF;
+    color: #fff;
+    border-radius: 6px;
+    padding: 7px 12px 7px 12px;
+}
+.my_orders a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #87CEEB;
+}
+.username {
+    position: absolute;
+    margin-top: 20px;
+    font-size: 20px;
+    right: 10px;
+    color: #000000;
+}
+.title {
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #87CEEB;
+}
+.register a {
+    position: absolute;
+    margin-top: 35px;
+    right: 80px;
+    background-color: #1E90FF;
+    color: #fff;
+    border-radius: 6px;
+    padding: 7px 12px 7px 12px;
+}
+.register a:hover {
+    color: #fff;
+    background-color: #1E90FF;
+    text-decoration: none;
+}
+.login a {
+    position: absolute;
+    right: 10px;
+    margin-top: 35px;
+    background-color: #00BFFF;
+    color: #fff;
+    border-radius: 6px;
+    padding: 7px 12px 7px 12px;
+}
+.login a:hover {
+    color: #fff;
+    background-color: #00BFFF;
+    text-decoration: none;
+}
+@media (max-width: 800px) {
+    .home {
+        margin-top: 80px;
+    }
+    .exit {
+        margin-top: 80px;
+    }
+    .username {
+        margin-top: 80px;
+    }
+    .my_orders {
+        left: 10px;
+        right: auto;
+        margin-top: -20px;
+    }
+    .menu {
+        height: 140px;
+    }
+    .register a {
+        margin-top: 55px;
+    }
+    .login a {
+        margin-top: 55px;
+    }
+
+}
+
+
+.index-title {
+    text-align: center;
+    margin-top: 20px;
+}
+.index_button {
+    background-color: #1E90FF;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    padding: 7px 12px 7px 12px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+.index-form {
+    width: 400px;
+    border: none;
+    border-radius: 6px;
+    min-height: 40px;
+    padding: 6px;
+    background-color: #87CEEB;
+}
+form {
+    width: 60%;
+}
+@media (max-width: 700px) {
+    form {
+        width: 100%
+    }
+}
+.index-job {
+    width: 500px;
+    margin-top: 30px;
+}
+.index-job h4 {
+    color: #4169E1;
+}
+
+ul {
+    list-style: none;
+    counter-reset: li;
+}
+ul li {
+    border-left: 4px solid #e7caa8;
+    padding:10px 20px 10px 20px;
+    margin: 12px 0 12px 0;
+    font-size: 17px;
+}
+
+
+.login-button {
+    background-color: #1E90FF;
+    border: none;
+    color: #00BFFF;
+    border-radius: 6px;
+    padding: 7px 12px 7px 12px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+.login-title {
+    margin: 20px 0 10px 0;
+    color: #242225;
+}
+.login-form {
+    width: 90%;
+    border: none;
+    border-radius: 6px;
+    min-height: 45px;
+    padding: 5px 5px 5px 10px;
+    background-color: #87CEEB;
+}
+.register-button {
+    background-color: #1E90FF;
+    border: none;
+    color: #f5e6e1;
+    border-radius: 6px;
+    padding: 7px 12px 7px 12px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+.register-title {
+    margin: 20px 0 10px 0;
+    color: #242225;
+}
+.register-form {
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    min-height: 45px;
+    padding: 5px 5px 5px 10px;
+    background-color: #87CEEB;
+}
+.about-job-btn a {
+    background-color: #4169E1;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    padding: 7px 12px 7px 12px;
+}
+.about-job-btn a:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #4169E1;
+}
+.edit-job-btn a {
+    background-color: #4169E1;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    padding: 7px 12px 7px 12px;
+
+}
+.edit-job-btn a:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #4169E1;
+}
+.delete-job-btn a {
+    position: relative;
+    left: 150px;
+    top: -24px;
+    background-color: #4169E1;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    padding: 7px 12px 7px 12px;
+}
+.delete-job-btn a:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #4169E1;
+}
+
+
+.about-job-title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 26px;
+    color: #000000  ;
+}
+.about-job-number {
+    color: #000000;
+}
+.about-job-employer {
+    font-size: 20px;
+    color: #000000;
+}
+.ready-btn {
+    background-color: #4169E1;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    padding: 7px 12px 7px 12px;
+}
+.already-about-job {
+    font-size: 18px;
+    color: #fff;
+}
+.refuse-btn {
+    background-color: #4169E1;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    padding: 7px 12px 7px 12px;
+    margin-top: 20px;
+}
+
+.edit-job-form {
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    min-height: 45px;
+    padding: 5px 5px 5px 10px;
+    background-color: #4169E1;
+}
+
+.edit-job-ready-btn {
+    background-color: #4169E1;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    padding: 7px 12px 7px 12px;
+    margin-top: 20px;
+}
+
+.myjobs-employee {
+    font-size: 18px;
+    background-color: #ADD8E6;
+    color: #fff;
+    padding: 10px 15px 5px 15px;
+    margin-bottom: 20px;
+}
+.myjobs-table tr th {
+    background-color: #4169E1;
+    padding: 10px;
+}
+.myjobs-table tr td {
+    background-color: #ADD8E6;
+    padding: 10px;
+}
+.myjobs-table {
+    margin-bottom: 20px;
+}
+.add-job-btn{
+    margin: 30px 0 10px 0;
+}
+.add-job-btn a {
+    background-color: #1E90FF;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    padding: 7px 12px 7px 12px;
+}
+.add-job-btn a:hover {
+    text-decoration: none;
+    background-color: #1E90FF;
+    color: #fff;
+}
+
+.add-job-form {
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    min-height: 45px;
+    padding: 5px 5px 5px 10px;
+    background-color: #87CEEB;
+}
+.add-job-btn-done {
+    background-color: #1E90FF;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 7px 12px 7px 12px;
+    margin-top: 20px;
+}
+.add-job-title {
+    font-size: 26px;
+    margin: 20px 0 10px 0;
+}
+.img-responsive
+{
+  max-width: 100%;
+  height: auto;
+}
+.footer{
+height: 46px;
+background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+display: flex;
+position: fixed;
+left: 0; bottom: 0;
+width: 100%;
+}
+
+.footer-author{
+color: rgb(0, 0, 0);
+font-size: 24px;
+margin: auto;
+}
