@@ -12,6 +12,7 @@ app.config['SECRET_KEY'] = 'yandexlyceum_secret_key'
 login_manager = LoginManager()
 login_manager.init_app(app)
 api = Api(app)
+port = int(os.environ.get("PORT", 5000))
 
 
 def main():
@@ -29,8 +30,8 @@ def main():
     def not_found(error):
         return make_response(jsonify({'error': 'Not found'}), 404)
 
-    app.run()
+    app.run(host='0.0.0.0', port=port)
 
-
+    
 if __name__ == '__main__':
     main()
